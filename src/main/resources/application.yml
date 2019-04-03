@@ -41,7 +41,7 @@ mybatis-plus: # mybatis-plus 配置
 
 hystrix: # 熔断器配置
   metrics:
-    polling-interval-ms: 120000
+    polling-interval-ms: 2000
     enabled: true
 
 
